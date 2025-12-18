@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
-export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? "/kvs-webrtc-join-as-viewer-qr-code-demo/" : "/",
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? "/kvs-webrtc-join-as-viewer-qr-code-demo/" : "/",
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
-});
+}));
