@@ -1,5 +1,6 @@
 {
   "name": "rotating-qr-code-display",
+  "homepage": "https://sirknightj.github.io/kvs-webrtc-join-as-viewer-qr-code-demo",
   "private": true,
   "type": "module",
   "scripts": {
