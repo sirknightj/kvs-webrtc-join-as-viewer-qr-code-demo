@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? "/kvs-webrtc-join-as-viewer-qr-code-demo/" : "/",
+  base: command === 'build' ? "/kvs-webrtc-join-as-viewer-qr-code-demo/client/" : "/",
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 }));
