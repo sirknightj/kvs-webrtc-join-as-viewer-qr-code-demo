@@ -9,9 +9,12 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@aws-sdk/client-sts": "^3.954.0",
     "@react-router/node": "7.10.1",
     "@react-router/serve": "7.10.1",
+    "@types/qrcode": "^1.5.6",
     "isbot": "^5.1.31",
+    "qrcode": "^1.5.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-router": "7.10.1"
